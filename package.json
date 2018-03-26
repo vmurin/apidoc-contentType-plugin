@@ -1,6 +1,6 @@
 {
-  "name": "apidoc-contenttype-plugin",
-  "version": "0.1.0",
+  "name": "apidoc-plugin-contenttype",
+  "version": "0.1.1",
   "description": "Add different content types support to apidoc",
   "main": "api_content_type.js",
   "scripts": {
@@ -8,14 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/koko-ng/apidoc-contentType-plugin.git"
+    "url": "git+https://github.com/vmurin/apidoc-contentType-plugin.git"
   },
   "author": "koko-ng <koko.fr.mu@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/koko-ng/apidoc-contentType-plugin/issues"
-  },
-  "homepage": "https://github.com/koko-ng/apidoc-contentType-plugin#readme",
+  "contributors": ["vmurin@valinor.me"],
   "dependencies": {
-    "apidoc-core": "~0.8.1"
+    "apidoc-core": "^0.8.1"
   }
 }
