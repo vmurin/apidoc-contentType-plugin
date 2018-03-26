@@ -5,7 +5,7 @@ module.exports = {
     init: function(_app) {
         app = _app;
 
-        app.parsers.contenttype = {
+        app.parsers.apicontenttype = {
             parse     : parseContentType,
             path      : 'local',
             method    : 'insert'
