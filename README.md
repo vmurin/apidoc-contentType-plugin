@@ -1,14 +1,21 @@
-# apidoc-contentType-plugin
+# apidoc-plugin-contenttype
 Add different content types support to apidoc
 
 ## Usage:
-First, clone and issue `npm install` in the plugin directory.
-You have to use the template provided and the custome parser, add `-t apidoc-contentType-plugin/template/ --parse-parsers apicontenttype=apidoc-contentType-plugin/api_content_type.js`
+
+This for of the original repo just uses the apidoc plugin name convention to be found automatically without need to use additional parameters.
+
+### Install
+
+```bash
+npm install vmurin/apidoc-plugin-contenttype
+```
+You have to use the template provided and the custome parser, add `-t apidoc-contentType-plugin/template/`
 to your command line.
 
-By instance, if you fork the plugin in the same directory as your project. Run this command from the directory of your project.
+Run this command from the directory of your project.
 ```
-apidoc -i lib/ -o doc -t ../apidoc-contentType-plugin/template/ --parse-parsers apicontenttype=../apidoc-contentType-plugin/api_content_type.js
+apidoc -i lib/ -o doc -t node_modules/apidoc-plugin-contenttype/template/
 ```
 Then, you can use the `@apiContentType` tag in your doc.
 ```
