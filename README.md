@@ -3,7 +3,7 @@ Add different content types support to apidoc
 
 ## Usage:
 
-This for of the original repo just uses the apidoc plugin name convention to be found automatically without need to use additional parameters.
+This fork of the original repo uses the apidoc plugin name convention to be found automatically without need to use additional parameters.
 
 ### Install
 
